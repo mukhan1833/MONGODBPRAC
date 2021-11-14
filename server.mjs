@@ -42,6 +42,7 @@ app.post('/user',(req,res)=>{
             stdepart:req.body.stdepart,
             stsection:req.body.stsection
         })
+        res.send("users created");
     }
 })
 
