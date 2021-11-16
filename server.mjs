@@ -40,7 +40,7 @@ app.post('/user',(req,res)=>{
             stname:req.body.stname,
             stroll:req.body.stroll,
             stdepart:req.body.stdepart,
-            stsection:req.body.stsection
+            stsection:req.body.stsection,
         })
         res.send("users created");
     }
